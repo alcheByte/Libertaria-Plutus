@@ -1,0 +1,120 @@
+﻿{
+    "common": {
+        "cancel": "Poništi",
+        "ok": "OK",
+        "import": "Uvezi",
+        "no": "Ne",
+        "yes": "Da",
+        "error": "Greška",
+        "withdraw": "Preuzmi",
+        "buy": "Kupi",
+        "sell": "Prodaj",
+        "success": "Uspješno",
+        "confirm": "Potvrdi",
+        "units": "Jedinice",
+        "price": "Cijena",
+        "total": "Ukupno",
+        "last": "Zadnja",
+        "bid": "Licitiraj",
+        "ask": "Pitaj",
+        "settings": "Postavke",
+        "market": "Burza",
+        "detach": "Odspoji uređaj"
+    },
+    "settings": {
+        "testnet": "Koristi test mrežu",
+        "current_lang": "Trenutni jezik"
+    },
+    "app": {
+        "create_account_alert": "Račun kreiran!",
+        "create_account_message": "Vaš ključ novčanika je kopiran u međuspremnik, molimo spremite ga na sigurno mjesto da možete oporaviti svoj račun po potrebi.",
+        "import_pk_alert": "Uvezi ključ novèanika",
+        "import_pk_message": "Pronađi i kopiraj kljuè novèanika u međuspremnik, vratite se i pristisnite Uvezi...",
+        "import_pk_success": "Ključ novčanika uspješno uvezen:\n'{{key}}'",
+        "detach_alert": "Odvoji uređaj?",
+        "detach_message": "Ovo će trajno ukloniti ključ novčanika sa sigurnog spremnika. Vaš račun neće biti izbrisan. Da bi koristili ovaj račun na drugom uredaju morati će te uvesti ključ novčanika na taj uredaj.",
+        "detach_confirm_have": "Da, već sam spremio svoj ključ novčanika.",
+        "detach_confirm_copy": "Da, ali kopiraj moj kljuè novčanika u međuspremnik da ga mogu spremiti sada.",
+        "detach_confirm_cancel": "Ne, ne želim ukloniti svoj kljuè novčanika.",
+        "delete_pk_success": "Ključ novčanika uspješno kopiran u međuspremnik:\n'{{key}}'"
+    },
+    "first_use": {
+        "welcome": "Dobrodošli na Plutus mobilnu aplikaciju!",
+        "msg_create": "Ako je ovo vaš prvi put da koristite aplikaciju, pritisnike Kreiraj račun",
+        "msg_import": "Ako već imate ključ novčanika za račun i želite ga koristiti na ovom uredaju, koristite \"Uvezi ključ\" opciju!",
+        "btn_create": "Kreiraj račun",
+        "btn_import": "Uvezi kljuè novčanika"
+    },
+    "icos": {
+        "tab": "ICOi",
+        "intro_1": "Platforma kripto sredstava",
+        "intro_2": "Kreiraj i trguj kripto sredstvima na novoj generaciji decentralizirane mjenjačnice",
+        "soon": "Uskoro!"
+    },
+    "market": {
+        "tab": "Tržište",
+        "trade_history": "Povijest trgovine",
+        "date": "Datum",
+        "time": "Vrijeme",
+        "price": "Cijena",
+        "amount": "Količina"
+    },
+    "trade": {
+        "tab": "Trguj",
+        "orderbook": {
+            "title": "Knjiga narudžbi",
+            "header": {
+                "total": "Ukupno-",
+                "size": "Veličina-",
+                "bid": "Licitiraj-",
+                "ask": "Traži-"
+            }
+        },
+        "myorders": {
+            "none": "Nema otvorenih narudžbi",
+            "order_cancelled": "Narudžba je otkazana",
+            "cancel_error": "Narudžba nije otkazana-\n{{err}}",
+            "cancel_order": "Otkaži svoju {{side}} za {{size}} {{tradecoin}} @{{price}} {{basecoin}}?",
+            "title": "Otvorene narudžbe",
+            "cols": {
+                "date": "Datum",
+                "side": "Licitiraj/Traži",
+                "price": "Cijena",
+                "size": "Veličina"
+            }
+        },
+        "buy": {
+            "confirm": "Kupi {{units}} {{tradeCoin}} za {{total}} {{baseCoin}}?",
+            "empty_base": "Nemate {{coin}} s kojima bi mogli kupiti, položite da možete licitirati!",
+            "coin": "Kupi {{coin}}",
+            "summary": "Kupi {{units}} {{coin}}"
+        },
+        "sell": {
+            "confirm": "Prodaj {{units}} {{tradeCoin}} for {{total}} {{baseCoin}}?",
+            "empty_trade": "Nemate {{coin}} za prodati!",
+            "coin": "Prodaj {{coin}}",
+            "summary": "Prodaj {{units}} {{coin}}"
+        },
+        "order": {
+            "combo_invalid": "Ispravna kombinacija Cijene, Jedinica i/ili ukupne vrijednosti mora biti upisana",
+            "total_exceeds_balance": "Ukupna narudžba {{total}} je viša nego što, {{available}}!",
+            "no_price": "Nemoguće izračunati ukupnu vrijednost, cijena nije postavljena!"
+        }
+    },
+    "wallet" : {
+        "tab": "Novčanik",
+        "export": "Izvezi ključ novčanika",
+        "exported": "Ključ novčanika kopiran u međuspremnik:\n'{{key}}'",
+        "token": {
+            "barcoderead_error": "Adresa izgleda kao {{coin}} adresa, a ne kao {{walletCoin}} adresa!",
+            "placeholder_withdraw_amount": "Iznos za podizanje",
+            "placeholder_withdraw_address": "Unesi {{coin}} adresu",
+            "none_available": "Nemate {{coin}} za podizanje :(",
+            "withdraw_confirm": "Podignite {{amount} na {{address}}?",
+            "withdraw_success": "Transakcija obavljena!",
+            "deposit_alert": "{{coin}} Položite",
+            "deposit_address_not_ready": "Adresa za polaganje nije još spremna.\nAko je ovo Vaše prvo polaganje, probajte ponovno za nekoliko minuta jer se adresa još generira.",
+            "deposit_clipboard": "Adresa za polaganje kopirana u međuspremnik.\n{{address}}"
+        }
+    }
+}

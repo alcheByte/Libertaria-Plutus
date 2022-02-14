@@ -1,0 +1,116 @@
+﻿{
+    "common": {
+        "cancel": "Iptal",
+        "ok": "Tamam",
+        "import": "Al",
+        "no": "Hayır",
+        "yes": "Evet",
+        "error": "Hata",
+        "withdraw": "Para Çekme",
+        "buy": "Alma",
+        "sell": "Satma",
+        "success": "Başarılı",
+        "confirm": "Onaylama",
+        "units": "Miktar",
+        "price": "Fiyat",
+        "total": "Toplam",
+        "last": "Son",
+        "bid": "Alış",
+        "ask": "Satış",
+        "settings": "Ayarlar",
+        "market": "Market",
+        "detach": "Cihazı Ayır"
+    },
+    "app": {
+        "create_account_alert": "Hesap Oluşturuldu!",
+        "create_account_message": "Cüzdan anahtarınız panoya kopyalandı, lütfen güvenli bir yere kaydedin, gerektiğinde hesabınızı kurtarabilirsiniz",
+        "import_pk_alert": "Cüzdan Anahtarını al",
+        "import_pk_message": "Cüzdan Anahtarızı bulun ve kopyalayın panoya...",
+        "import_pk_success": "Cüzdan Anahtar başarıyla alındı:\n'{{key}}'",
+        "detach_alert": "Cüzdan Anahtarını Sil?",
+        "detach_message": "Çıkış Yapmak Cüzdan Anahtarınızı kalıcı olarak güvenli depolama alanından kaldırır!!",
+        "detach_confirm_have": "Evet, Cüzdan Anahtarım var",
+        "detach_confirm_copy": "Evet, Cüzdan Anahtarımı panoya kopyala",
+        "detach_confirm_cancel": "Hayır, Cüzdan Anahtarımı kaldırmak istemiyorum.",
+        "delete_pk_success": "Cüzdan Anahtarı panoya kopyalandı:\n'{{key}}'"
+    },
+    "first_use": {
+        "welcome": "Plutus mobil uygulamasına hoş geldiniz!",
+        "msg_create": "Bu uygulamayı ilk kez kullanıyorsanız, aşağıdaki Hesap Oluştur düğmesini kullanın.!",
+        "msg_import": "Hesabınız için zaten Cüzdan bir anahtarınız varsa ve bu cihazda kullanmak istiyorsanız, Cüzdan Anahtarını Al seçeneğini kullanın.!",
+        "btn_create": "Hesap Oluştur",
+        "btn_import": "Cüzdan Anahtarını Al"
+    },
+    "icos": {
+        "tab": "ICOlar",
+        "intro_1": "Kripto Varlık Platformu",
+        "intro_2": "Yeni nesil DEX'te kripto varlıkları oluşturun ve al/sat yapın",
+        "soon": "ICO Platformu yakında geliyor!"
+    },
+    "market": {
+        "tab": "Market",
+        "trade_history": "Hesap Hareketleri",
+        "date": "Tarih",
+        "time": "Zaman",
+        "price": "Fiyat",
+        "amount": "Miktar"
+    },
+    "trade": {
+        "tab": "Trade",
+        "orderbook": {
+            "title": "Emir Listesi",
+            "header": {
+                "total": "Toplam-",
+                "size": "Miktar-",
+                "bid": "Alış-",
+                "ask": "Satış-"
+            }
+        },
+        "myorders": {
+            "none": "Açık emriniz yok.",
+            "order_cancelled": "Emir iptal edildi",
+            "cancel_error": "Emir iptal edilemedi.d-\n{{err}}",
+            "cancel_order": "{{side}} {{size}} {{tradecoin}} @{{price}} {{basecoin}} için, alış emrini iptal et?",
+            "title": "Açık Emirler",
+            "cols": {
+                "date": "Tarih",
+                "side": "Alış/Satış",
+                "price": "Fiyat",
+                "size": "Miktar"
+            }
+        },
+        "buy": {
+            "confirm": " {{total}} {{baseCoin}} için {{units}} {{tradeCoin}} Al?",
+            "empty_base": "Satın almak için hesabınızda {{coin}} yok, para yatırdıktan sonra teklif verebilirsiniz!",
+            "coin": "{{coin}} Al",
+            "summary": "{{units}} {{coin}} Al"
+        },
+        "sell": {
+            "confirm": "{{total}} {{baseCoin}} için {{units}} {{tradeCoin}} Sat?",
+            "empty_trade": "Para Satmak için hesabınızda {{coin}} bulunmamaktadır",
+            "coin": "{{coin}} Sat",
+            "summary": "{{units}} {{coin}} Sat"
+        },
+        "order": {
+            "combo_invalid": "Geçerli bir fiyat, toplam veya miktar kombinasyonu sağlanmalıdır.",
+            "total_exceeds_balance": "Emirlerin toplamı {total}}, sahip olduğunuzdan daha fazla, {{available}}!",
+            "no_price": "Toplam fiyat hesaplanamıyor, fiyat belirlenmedi!"
+        }
+    },
+    "wallet": {
+        "tab": "Wallet",
+        "export": "Cüzdan Anahtarı Ver",
+        "exported": "Cüzdan Anahtarı panoya kopyalandı:\n'{{key}}'",
+        "token": {
+            "barcoderead_error": "Adresler {{coin}} adresi olarak görünür, {{walletCoin}} adresi olarak değil!",
+            "placeholder_withdraw_amount": "Para çekme tutarı",
+            "placeholder_withdraw_address": "{{coin}} adresini girin",
+            "none_available": "Para çekmek için hesabınızda hiç {{coin}} bulunmamaktadır :(",
+            "withdraw_confirm": "Bu adrese {{address}} {{amount} yolla?",
+            "withdraw_success": "Para çekme işlemi gönderildi!",
+            "deposit_alert": "{{coin}} Yatır",
+            "deposit_address_not_ready": "Para yatırma adresi henüz hazır değil.\nEger ilk defa para yatiriyorsaniz, hala oluşturulduğu için birkaç dakika içinde tekrar deneyin",
+            "deposit_clipboard": "Para yatırma adresi panoya kopyalandı.\n{{address}}"
+        }
+    }
+}

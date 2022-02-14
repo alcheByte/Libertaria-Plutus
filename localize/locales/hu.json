@@ -1,0 +1,120 @@
+﻿{
+    "common": {
+        "cancel": "Mégse",
+        "ok": "OK",
+        "import": "Importálás",
+        "no": "Nem",
+        "yes": "Igen",
+        "error": "Hiba",
+        "withdraw": "Kiutalás",
+        "buy": "Vétel",
+        "sell": "Eladás",
+        "success": "Sikerült",
+        "confirm": "Erõsítsd meg",
+        "units": "Egységek",
+        "price": "Ár",
+        "total": "Végösszeg",
+        "last": "Legutóbbi",
+        "bid": "Vételi ár",
+        "ask": "Eladási ár",
+        "settings": "Beállítások",
+        "market": "Piac",
+        "detach": "Eszköz leválasztása"
+    },
+    "settings": {
+        "testnet": "Teszt hálózat használata",
+        "current_lang": "Jelenlegi nyelv"
+    },
+    "app": {
+        "create_account_alert": "Fiók létrehozva!",
+        "create_account_message": "A tárcád kulcsa a vágólapra másolódott, tárold el biztonságosan, hogy szükség esetén helyreállíthasd a fiókodat.",
+        "import_pk_alert": "Tárca Kulcsának Importálása",
+        "import_pk_message": "Keresd meg és másold a vágólapra a tárcád kulcsát, majd nyomd meg az import gombot...",
+        "import_pk_success": "Sikeresen importáltad a tárcád kulcsát:\n'{{key}}'",
+        "detach_alert": "Leválasztod az eszközt?",
+        "detach_message": "Ez véglegesen eltávolítja a tárcád kulcsát a biztonságos tárolódról. A fiókod nem kerül törlésre. Ahhoz, hogy a fiókodat egy másik eszközön használhasd, a tárcád kulcsát azon az eszközön kell importálnod.",
+        "detach_confirm_have": "Igen, már lementettem a tárcám kulcsát.",
+        "detach_confirm_copy": "Igen, de másold a tárcám kulcsát a vágólapra, hogy le tudjam menteni.",
+        "detach_confirm_cancel": "Nem, nem akarom eltávolítani a tárcám kulcsát.",
+	        "delete_pk_success": "A tárcád kulcsa a vágólapra másolódott:\n'{{key}}'"
+    },
+    "first_use": {
+        "welcome": "Üdv a Plutus mobil appban!",
+        "msg_create": "Amennyiben elõször használod ezt az appot, akkor nyomb meg lent a Fiók létrehozása gombot!",
+        "msg_import": "Amennyiben már rendelkezel a fiókhoz egy kulccsal és szeretnéd a kulcsot ezen az eszközön használni, akkor alkalmazd a Tárca Kulcsának Importálása opciót!",
+        "btn_create": "Fiók Létrehozása",
+        "btn_import": "Tárca Kulcsának Importálása"
+    },
+    "icos": {
+        "tab": "ICO-k",
+        "intro_1": "Crypto Asset Platform",
+        "intro_2": "Kreálj és kereskedj crypto assetekkel egy új generációs decentralizált váltón (DEX-en)",
+        "soon": "Hamarosan jön!"
+    },
+    "market": {
+        "tab": "Piac",
+        "trade_history": "Kereskedési történet",
+        "date": "Dátum",
+        "time": "Idõ",
+        "price": "Ár",
+        "amount": "Összeg"
+    },
+    "trade": {
+        "tab": "Kereskedés",
+        "orderbook": {
+            "title": "Megbízási Könyv",
+            "header": {
+                "total": "Végösszeg-",
+                "size": "Mennyiség-",
+                "bid": "Vételi ár-",
+                "ask": "Eladási ár-"
+            }
+        },
+        "myorders": {
+            "none": "Nincsenek nyitott megbízások",
+            "order_cancelled": "A megbízás törlésre került",
+            "cancel_error": "A megbízás nem került törlésre-\n{{err}}",
+            "cancel_order": "Törlöd a következõt: {{side}} ezekkel a paraméterekkel: {{size}} {{tradecoin}} @{{price}} {{basecoin}}?",
+            "title": "Nyitott megbízások",
+            "cols": {
+                "date": "Dátum",
+                "side": "Vételi ár/Eladási ár",
+                "price": "Ár",
+                "size": "Mennyiség"
+            }
+        },
+        "buy": {
+            "confirm": "Vásárolsz {{units}} {{tradeCoin}} -t {{total}} {{baseCoin}} -ért?",
+            "empty_base": "Nincs elég {{coin}} a vásárláshoz, fizess be elõször, hogy vételi ajánlatot tehess!",
+            "coin": "{{coin}} vásárlás",
+            "summary": "{{units}} {{coin}} vásárlás"
+        },
+        "sell": {
+            "confirm": "Eladsz {{units}} {{tradeCoin}} -t {{total}} {{baseCoin}} -ért?",
+            "empty_trade": "Nincs elég {{coin}} az eladáshoz!",
+            "coin": "{{coin}} eladás",
+            "summary": "{{units}} {{coin}} eladás"
+        },
+        "order": {
+            "combo_invalid": "Érvényes ár-egység kombinációra és/vagy végösszeg megadására van szükség",
+            "total_exceeds_balance": "A megbízási végösszeg {{total}} több, mint amennyi rendelkezésedre áll, {{available}}!",
+            "no_price": "A végösszeg nem megállapítható, mivel nincs megadva az ár!"
+        }
+    },
+    "wallet" : {
+        "tab": "Tárca",
+        "export": "Tárca Kulcsának Exportálása",
+        "exported": "A tárcád kulcsa a vágólapra másolódott:\n'{{key}}'",
+        "token": {
+            "barcoderead_error": "A cím úgy tûnik, hogy egy {{coin}} cím, nem a {{walletCoin}} cím!",
+            "placeholder_withdraw_amount": "Kiutalandó összeg",
+            "placeholder_withdraw_address": "Add meg a {{coin}} címet",
+            "none_available": "Nincs elég {{coin}} a kiutaláshoz :(",
+            "withdraw_confirm": "{{amount} kiutalása {{address}} címre?",
+            "withdraw_success": "Kiutalási megbízás elküldve!",
+            "deposit_alert": "{{coin}} befizetés érkezett",
+            "deposit_address_not_ready": "A befizetési cím még nem áll rendelkezésre.\n Amennyiben ez az elsõ befizetésed, akkor pár perc múlva próbáld meg ismét, mert még készül.",
+            "deposit_clipboard": "A befizetési cím a vágólapra másolódott.\n{{address}}"
+        }
+    }
+}

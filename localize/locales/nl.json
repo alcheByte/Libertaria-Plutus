@@ -1,0 +1,117 @@
+﻿{
+    "common": {
+        "cancel": "Annuleren",
+        "ok": "OK",
+        "import": "Importeren",
+        "no": "Nee",
+        "yes": "Ja",
+        "error": "Fout",
+        "withdraw": "Opnemen",
+        "buy": "Koop",
+        "sell": "Verkoop",
+        "success": "Succes",
+        "confirm": "Bevestigen",
+        "units": "Eenheden",
+        "price": "Prijs",
+        "total": "Totaal",
+        "last": "Laatste",
+        "bid": "Aanbod",
+        "ask": "Vraag",
+        "settings": "Instellingen",
+        "market": "Markt",
+        "detach": "Apparaat loskoppelen"
+    },
+    "settings": {
+        "testnet": "Gebruik test netwerk",
+        "current_lang": "Huidige taal"
+    },
+    "app": {
+        "create_account_alert": "Account aangemaakt!",
+        "create_account_message": "Uw Wallet sleutel is gekopieerd naar het klembord, bewaar deze op een veilige plaats zodat u uw account indien nodig kunt herstellen.",
+        "import_pk_alert": "Importeer wallet sleutel",
+        "import_pk_message": "Zoek en kopieer de wallet sleutel naar het klembord, kom terug en klik op importeren...",
+        "import_pk_success": "wallet sleutel is succesvol geïmporteerd:\n'{{key}}'",
+        "logout_alert": "Verwijder wallet sleutel?",
+        "logout_message": "Door uit te loggen wordt uw wallet sleutel definitief verwijderd uit de beveiligde opslag!",
+        "detach_confirm_have": "Ja, ik heb mijn wallet sleutel",
+        "detach_confirm_copy": "Ja, kopieer mijn wallet sleutel naar het klembord",
+        "delete_pk_success": "wallet sleutel gekopieerd naar klembord:\n'{{key}}'"
+    },
+    "first_use": {
+        "welcome": "Welkom bij de Plutus mobiele app!",
+        "msg_create": "Als dit de eerste keer is dat u deze app gebruikt, gebruik dan de knop Account aanmaken!",
+        "msg_import": "Als u al een wallet sleutel voor een account hebt en u deze op dit apparaat wilt gebruiken, gebruikt u de optie wallet sleutel importeren!",
+        "btn_create": "Account aanmaken",
+        "btn_import": "Importeer wallet sleutel"
+    },
+    "icos": {
+        "tab": "ICO",
+        "intro_1": "Crypto Asset Platform",
+        "intro_2": "Creeër en handel in crypto op een nieuwe generatie DEX",
+        "soon": "Het Crypto Asset Platform komt eraan!"
+    },
+    "market": {
+        "tab": "Markt",
+        "trade_history": "Transactie geschiedenis",
+        "date": "Datum",
+        "time": "Tijd",
+        "price": "Prijs",
+        "amount": "Hoeveelheid"
+    },
+    "trade": {
+        "orderbook": {
+            "title": "Orderboek",
+            "header": {
+                "total": "Totaal-",
+                "size": "Hoeveelheid",
+                "bid": "Aanbod-",
+                "ask": "Vraag-"
+            }
+        },
+        "myorders": {
+            "none": "Geen open orders",
+            "order_cancelled": "Order is geannuleerd",
+            "cancel_error": "Order is niet geannuleerd-\n{{err}}",
+            "cancel_order": "Annuleer uw {{side}} voor {{size}} {{tradecoin}} @ {{price}} {{basecoin}}?",
+            "title": "Open orders",
+            "cols": {
+                "date": "Datum",
+                "side": "Aanbod/Vraag",
+                "price": "Prijs",
+                "size": "Hoeveelheid"
+            }
+        },
+        "buy": {
+            "confirm": "Koop {{units}} {{tradeCoin}} voor {{total}} {{baseCoin}}?",
+            "empty_base": "Je hebt geen {{coin}} om mee te kopen, stort iets zodat je kunt bieden!",
+            "coin": "Koop {{coin}}",
+            "summary": "Koop {{units}} {{coin}}"
+        },
+        "sell": {
+            "confirm": "Verkoop {{units}} {{tradeCoin}} voor {{total}} {{baseCoin}}?",
+            "empty_trade": "U heeft geen {{coin}} om te verkopen!",
+            "coin": "Verkoop {{coin}}",
+            "summary": "Verkoop {{units}} {{coin}}"
+        },
+        "order": {
+            "combo_invalid": "Er moet een geldige combinatie van prijs, eenheden en / of totaal beschikbaar zijn",
+            "total_exceeds_balance": "Ordertotaal {{total}} is meer dan u {{beschikbaar}} heeft!",
+            "no_price": "Kan totaal niet berekenen, prijs is niet ingesteld!!"
+        }
+    },
+    "wallet" : {
+        "export": "Exporteer wallet sleutel",
+        "exported": "wallet sleutel gekopieerd naar klembord:\n'{{key}}'",
+        "token": {
+	    "barcoderead_error": "Adres lijkt een {{coin}} -adres te zijn, geen {{walletCoin}} -adres!",
+            "placeholder_withdraw_amount": "Bedrag om op te nemen",
+            "placeholder_withdraw_address": "Vul {{coin}} adres",
+            "none_available": "U heeft geen {{coin}} om op te nemen :(",
+            "withdraw_confirm": "Wilt u {{amount} opnemen naar {{address}}?",
+            "withdraw_success": "Opname transactie is geslaagd!",
+            "deposit_alert": "{{coin}} Storten",
+            "deposit_address_not_ready": "Het stortingsadres is nog niet klaar. Als dit je eerste storting is, probeer het over enkele minuten opnieuw, want het wordt nog steeds gegenereerd.",
+            "deposit_clipboard": "Stortingadres gekopieerd naar klembord.\n{{address}}"
+        }
+    }
+}

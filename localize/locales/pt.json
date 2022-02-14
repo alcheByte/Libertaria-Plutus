@@ -1,0 +1,120 @@
+﻿{
+    "common": {
+        "cancel": "Cancel",
+        "ok": "OK",
+        "import": "Importar",
+        "no": "Não",
+        "yes": "Sim",
+        "error": "Erro",
+        "withdraw": "Sacar",
+        "buy": "Comprar",
+        "sell": "Vender",
+        "success": "Sucesso",
+        "confirm": "Confirmar",
+        "units": "Unidades",
+        "price": "Preço",
+        "total": "Total",
+        "last": "Ultimo",
+        "bid": "Lance",
+        "ask": "Pedir",
+        "settings": "Opções",
+        "market": "Mercado",
+        "detach": "Remover Dispositivo"
+    },
+    "settings": {
+        "testnet": "Usar rede teste",
+        "current_lang": "Idioma Atual"
+    },
+    "app": {
+        "create_account_alert": "Conta Criada!",
+        "create_account_message": "Sua chave da carteira foi copiada para a área de transferência, guarde-a em um local seguro para que você possa recuperar sua conta, caso seja necessário.",
+        "import_pk_alert": "Importar chave privada",
+        "import_pk_message": "Encontre e copie a chave da carteira, volte e clique em importar...",
+        "import_pk_success": "Chave da carteira importada com sucesso:\n'{{key}}'",
+        "detach_alert": "Remover Dispositivo?",
+        "detach_message": "Isso removerá sua chave privada do armazenamento seguro de forma permanente. Sua conta não será deletada. Para utilizar essa conta em outro dispositivo você precisará importar sua chave privada para o novo dispositivo.",
+        "detach_confirm_have": "Sim, eu tenho a chave privada salva.",
+        "detach_confirm_copy": "Sim, mas copie minha chave privada para a area de transferência para que possa salvar agora.",
+        "detach_confirm_cancel": "Não, Eu não quero remover minha chave da carteira.",
+        "delete_pk_success": "Chave da carteira copiada para area de transfêrencia:\n'{{key}}'"
+    },
+    "first_use": {
+        "welcome": "Bem vindo ao Aplicativo Plutus mobile!",
+        "msg_create": "Se essa é a sua primeira vez usando o aplicativo, Escolha criar conta no botão abaixo!",
+        "msg_import": "Se você já possui a chave da carteira e quer utilizar neste dispositivo, escolha a opção importar wallet key!",
+        "btn_create": "Criar Conta",
+        "btn_import": "Importar chave da carteira"
+    },
+    "icos": {
+        "tab": "ICOs",
+        "intro_1": "Plataforma de Ativos Cripto",
+        "intro_2": "Crie e negocie ativos cripto em uma proxima geração DEX",
+        "soon": "Em breve!"
+    },
+    "market": {
+        "tab": "Mercado",
+        "trade_history": "Histórico de negociações",
+        "date": "Data",
+        "time": "Tempo",
+        "price": "Preço",
+        "amount": "Quantidade"
+    },
+    "trade": {
+        "tab": "Negociar",
+        "orderbook": {
+            "title": "Livro de Ofertas",
+            "header": {
+                "total": "Total-",
+                "size": "Quantidade-",
+                "bid": "Lance-",
+                "ask": "Pedir-"
+            }
+        },
+        "myorders": {
+            "none": "Náo há ordens abertas",
+            "order_cancelled": "A Ordem foi Cancelada",
+            "cancel_error": "Ordem não foi cancelada-\n{{err}}",
+            "cancel_order": "Cancelar seu {{side}} por {{size}} {{tradecoin}} @{{price}} {{basecoin}}?",
+            "title": "Ordens Abertas",
+            "cols": {
+                "date": "Data",
+                "side": "Lance/Pedir",
+                "price": "Preço",
+                "size": "Quantidade"
+            }
+        },
+        "buy": {
+            "confirm": "Comprar {{units}} {{tradeCoin}} por {{total}} {{baseCoin}}?",
+            "empty_base": "Você não possui nenhuma {{coin}} para poder comprar, deposite algumas para que você possa dar um lance!",
+            "coin": "Comprar {{coin}}",
+            "summary": "Comprar {{units}} {{coin}}"
+        },
+        "sell": {
+            "confirm": "Vender {{units}} {{tradeCoin}} por {{total}} {{baseCoin}}?",
+            "empty_trade": "Você não possui nenhuma {{coin}} para vender!",
+            "coin": "Vender {{coin}}",
+            "summary": "Vender {{units}} {{coin}}"
+        },
+        "order": {
+            "combo_invalid": "Uma combinação válida de Preço, Unidades e/ou Total deve ser fornecida",
+            "total_exceeds_balance": "Total da ordem {{total}} é maior do que você possui, {{available}}!",
+            "no_price": "Não é possível calcular o total, preço não definido!"
+        }
+    },
+    "wallet" : {
+        "tab": "Carteira",
+        "export": "Ex",
+        "exported": "Chave da carteira copiada para area de transferência :\n'{{key}}'",
+        "token": {
+            "barcoderead_error": "Endereço parece ser um endereço {{coin}}, não um {{walletCoin}} Endereço!",
+            "placeholder_withdraw_amount": "Quantidade a Sacar",
+            "placeholder_withdraw_address": "Entre com o endereço {{coin}}",
+            "none_available": "Você não possui {{coin}} para sacar :(",
+            "withdraw_confirm": "Sacar {{amount} para {{address}}?",
+            "withdraw_success": "Solicitação de saque enviado!",
+            "deposit_alert": "{{coin}} Deposito",
+            "deposit_address_not_ready": "O endereço para deposito ainda não está pronto.\nSe esse é seu primeiro deposito, Tente novamente em alguns minutos, pois ainda está sendo gerado.",
+            "deposit_clipboard": "Endereço de deposito copiado para area de transferência.\n{{address}}"
+        }
+    }
+}

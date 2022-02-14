@@ -1,0 +1,8 @@
+node_modules/**/*
+.expo/*
+npm-debug.*
+.vscode/settings.json
+*.suo
+*.DS_Store
+.AppleDouble
+.LSOverrideß

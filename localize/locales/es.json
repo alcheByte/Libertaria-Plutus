@@ -1,0 +1,120 @@
+﻿{
+    "common": {
+        "cancel": "Cancelar",
+        "ok": "Aceptar",
+        "import": "Importar",
+        "no": "No",
+        "yes": "Si",
+        "error": "Error",
+        "withdraw": "Retirar",
+        "buy": "Comprar",
+        "sell": "Vender",
+        "success": "Exitosa",
+        "confirm": "Confirmar",
+        "units": "Unidades",
+        "price": "Precio",
+        "total": "Total",
+        "last": "Ultimo",
+        "bid": "Compra",
+        "ask": "Venta",
+        "settings": "Configuracion",
+        "market": "Mercado",
+        "detach": "Desconectar Dispositivo"
+    },
+    "settings": {
+        "testnet": "Usar red de prueba",
+        "current_lang": "Idioma Actual"
+    },
+    "app": {
+        "create_account_alert": "Cuenta Creada!",
+        "create_account_message": "Tu clave privada se ha copiado al porta papeles, por favor guardala en un lugar seguro para poder recuperar tu cuenta de ser necesario.",
+        "import_pk_alert": "Importar Clave Privada",
+        "import_pk_message": "Busca y copia tu clave privada al porta papeles, vuelve y haz click en Importar...",
+        "import_pk_success": "Clave privada importada exitosamente:\n'{{key}}'",
+        "detach_alert": "Desconectar Dispositivo?",
+        "detach_message": "Esto removera tu Clave Privada de tu almacenamiento seguro permanentemente. Tu cuenta no sera borrada. Para usar esta cuenta en otro dispositivo necesitaras impotar la Clave de la Billetera en ese dispositivo.",
+        "detach_confirm_have": "Si, ya guarde mi Clave Privada.",
+        "detach_confirm_copy": "Si, pero copiar mi Clave Privada al portapapeles asi puedo guardarla ahora.",
+        "detach_confirm_cancel": "No, no quiero remover mi Clave Privada.",
+        "delete_pk_success": "Clave privada copiada al porta papeles:\n'{{key}}'"
+    },
+    "first_use": {
+        "welcome": "Bienvenido a la app movil Plutus!",
+        "msg_create": "Si esta es la primera vez que usas esta app, utiliza el boton de abajo Crear Cuenta!",
+        "msg_import": "Si ya tienes una clave privada para una cuenta y quieres usarla en este dispositivo, useala opcion Importar Clave Privada!",
+        "btn_create": "Crear Cuenta",
+        "btn_import": "Importar Clave Privada"
+    },
+    "icos": {
+        "tab": "ICOs",
+        "intro_1": "Plataforma de Cripto Activos",
+        "intro_2": "Crea y negocia cripto activos en una DEX de proxima generacion",
+        "soon": "Proximamente!"
+    },
+    "market": {
+        "tab": "Mercado",
+        "trade_history": "Historial de Operaciones",
+        "date": "Fecha",
+        "time": "Hora",
+        "price": "Precio",
+        "amount": "Cantidad"
+    },
+    "trade": {
+        "tab": "Operaciones",
+        "orderbook": {
+            "title": "Libro de Ordenes",
+            "header": {
+                "total": "Total-",
+                "size": "Cantidad-",
+                "bid": "Compra-",
+                "ask": "Venta-"
+            }
+        },
+        "myorders": {
+            "none": "No hay Ordenes Abiertas",
+            "order_cancelled": "La orden fue cancelada",
+            "cancel_error": "La orden no fue cancelada-\n{{err}}",
+            "cancel_order": "Cancelar tus {{side}} por {{size}} {{tradecoin}} @{{price}} {{basecoin}}?",
+            "title": "Ordenes Abiertas",
+            "cols": {
+                "date": "Fecha",
+                "side": "Compra/Venta",
+                "price": "Precio",
+                "size": "Cantidad"
+            }
+        },
+        "buy": {
+            "confirm": "Compra {{units}} {{tradeCoin}} por {{total}} {{baseCoin}}?",
+            "empty_base": "No tienes {{coin}} para comprar, deposita algo para poder ofertar!",
+            "coin": "Comprar {{coin}}",
+            "summary": "Comprar {{units}} {{coin}}"
+        },
+        "sell": {
+            "confirm": "Vende {{units}} {{tradeCoin}} por {{total}} {{baseCoin}}?",
+            "empty_trade": "No tienes {{coin}} para vender!",
+            "coin": "Vender {{coin}}",
+            "summary": "Vender {{units}} {{coin}}"
+        },
+        "order": {
+            "combo_invalid": "Una combinacion valida de Precio, Unidades, y/o Total debe ser provista",
+            "total_exceeds_balance": "El total de la orden {{total}} es mas de lo que tienes, {{available}}!",
+            "no_price": "No se puede calcular el total, el precio no fue estipulado!"
+        }
+    },
+    "wallet" : {
+        "tab": "Wallet",
+        "export": "Exportar Clave Privada",
+        "exported": "Clave privada copiada al porta papeles:\n'{{key}}'",
+        "token": {
+            "barcoderead_error": "La direccion parece ser una direccion {{coin}}, no es una direccion {{walletCoin}}!",
+            "placeholder_withdraw_amount": "Cantidad a retirar",
+            "placeholder_withdraw_address": "Ingresa una direccion {{coin}}",
+            "none_available": "No tienes {{coin}} para retirar :(",
+            "withdraw_confirm": "Retira {{amount} a {{address}}?",
+            "withdraw_success": "Transaccion de retiro enviada!",
+            "deposit_alert": "Depositar {{coin}}",
+            "deposit_address_not_ready": "La direccion de deposito todavia no esta lista.\nSi este es tu primer deposito, vuelve a intentar en algunos minutos, ya que todavia esta siendo generada.",
+            "deposit_clipboard": "La direccion de deposito fue copiada al porta papeles.\n{{address}}"
+        }
+    }
+}

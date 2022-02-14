@@ -1,0 +1,120 @@
+﻿{
+    "common": {
+        "cancel": "Anuluj",
+        "ok": "OK",
+        "import": "Importuj",
+        "no": "Nie",
+        "yes": "Tak",
+        "error": "Błąd",
+        "withdraw": "Wypłać",
+        "buy": "Kup",
+        "sell": "Sprzedaj",
+        "success": "Sukces",
+        "confirm": "Potwierdź",
+        "units": "Ilość",
+        "price": "Cena",
+        "total": "Suma",
+        "last": "Ostatnie",
+        "bid": "Kup",
+        "ask": "Sprzedaj",
+        "settings": "Ustawienia",
+        "market": "Rynek",
+        "detach": "Odłącz Urządzenie"
+    },
+    "settings": {
+        "testnet": "Użyj sieci testowej",
+        "current_lang": "Język"
+    },
+    "app": {
+        "create_account_alert": "Konto utworzone!",
+        "create_account_message": "Twój klucz portfela został skopiowany do schowka, zapisz go w bezpiecznym miejscu, aby w razie potrzeby móc odzyskać konto.",
+        "import_pk_alert": "Importuj klucz portfela",
+        "import_pk_message": "Znajdź i skopiuj klucz portfela do schowka, wróć i kliknij Importuj...",
+        "import_pk_success": "Klucz portfela został pomyślnie zaimportowany:\n'{{key}}'",
+        "detach_alert": "Odłączyć urządzenie?",
+        "detach_message": "Spowoduje to trwałe usunięcie Twojego Klucza z bezpiecznego magazynu. Twoje konto nie zostanie usunięte. Aby użyć tego konta na innym urządzeniu, musisz zaimportować Klucz na tym urządzeniu.",
+        "detach_confirm_have": "Tak, mam już mój klucz do portfela.",
+        "detach_confirm_copy": "Tak, ale skopiuj mój klucz portfela do schowka, aby móc go teraz zapisać.",
+        "detach_confirm_cancel": "Nie, nie chcę usuwać klucza do portfela.",
+        "delete_pk_success": "Klucz portfela został skopiowany do schowka:\n'{{key}}'"
+    },
+    "first_use": {
+        "welcome": "Witamy w aplikacji mobilnej Plutus!",
+        "msg_create": "Jeśli używasz tej aplikacji po raz pierwszy, użyj przycisku Utwórz konto poniżej!",
+        "msg_import": "Jeśli masz już klucz portfela do konta i chcesz go używać na tym urządzeniu, użyj opcji Importuj klucz portfela!",
+        "btn_create": "Utwórz konto",
+        "btn_import": "Importuj klucz portfela"
+    },
+    "icos": {
+        "tab": "ICOs",
+        "intro_1": "Platforma Crypto Asset",
+        "intro_2": "Twórz i wymieniaj zasoby kryptograficzne na nowej generacji DEX",
+        "soon": "Wkrótce!"
+    },
+    "market": {
+        "tab": "Rynek",
+        "trade_history": "Historia Handlu",
+        "date": "Data",
+        "time": "Czas",
+        "price": "Cena",
+        "amount": "Ilość"
+    },
+    "trade": {
+        "tab": "Handel",
+        "orderbook": {
+            "title": "Księga zleceń",
+            "header": {
+                "total": "Suma-",
+                "size": "Rozmiar-",
+                "bid": "Kup-",
+                "ask": "Sprzedaj-"
+            }
+        },
+        "myorders": {
+            "none": "Brak otwartych zleceń",
+            "order_cancelled": "Zlecenie zostało anulowane",
+            "cancel_error": "Zlecenie nie zostało anulowane-\n{{err}}",
+            "cancel_order": "Anuluj {{side}} za {{size}} {{tradecoin}} @{{price}} {{basecoin}}?",
+            "title": "Otwarte zlecenia",
+            "cols": {
+                "date": "Data",
+                "side": "Kup/Sprzedaj",
+                "price": "Cena",
+                "size": "Rozmiar"
+            }
+        },
+        "buy": {
+            "confirm": "Kup {{units}} {{tradeCoin}} za {{total}} {{baseCoin}}?",
+            "empty_base": "Nie masz żadnych {{coin}} do kupienia, wpłać trochę, abyś mógł licytować!",
+            "coin": "Kup {{coin}}",
+            "summary": "Kup {{units}} {{coin}}"
+        },
+        "sell": {
+            "confirm": "Sprzedaj {{units}} {{tradeCoin}} za {{total}} {{baseCoin}}?",
+            "empty_trade": "Nie masz żadnych {{coin}} do sprzedania!",
+            "coin": "Sprzedaj {{coin}}",
+            "summary": "Sprzedaj {{units}} {{coin}}"
+        },
+        "order": {
+            "combo_invalid": "Należy podać prawidłową kombinację ceny, jednostek i/lub sumę",
+            "total_exceeds_balance": "Suma zamówienia {{total}} jest większa niż twoje saldo, {{available}}!",
+            "no_price": "Nie można obliczyć sumy, cena nie jest ustawiona!"
+        }
+    },
+    "wallet" : {
+        "tab": "Portfel",
+        "export": "Eksportuj Klucz Portfela",
+        "exported": "Klucz Portfela został skopiowany do schowka:\n'{{key}}'",
+        "token": {
+            "barcoderead_error": "Adres wydaje się być {{coin}} adresem, a nie {{walletCoin}} adresem!",
+            "placeholder_withdraw_amount": "Kwota do wypłaty",
+            "placeholder_withdraw_address": "Wpisz {{coin}} Adres",
+            "none_available": "Nie masz żadnych{{coin}} do wypłaty :(",
+            "withdraw_confirm": "Wypłać {{amount} do {{address}}?",
+            "withdraw_success": "Wycofaj wysłaną transakcję!",
+            "deposit_alert": "{{coin}} Wpłata",
+            "deposit_address_not_ready": "Adres wpłaty nie jest jeszcze gotowy.\nJeśli jest to Twoja pierwsza wpłata, spróbuj ponownie za kilka minut, ponieważ wciąż jest generowana.",
+            "deposit_clipboard": "Adres wpłaty został skopiowany do schowka.\n{{address}}"
+        }
+    }
+}

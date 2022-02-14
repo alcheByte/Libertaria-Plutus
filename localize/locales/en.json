@@ -1,0 +1,176 @@
+{
+    "common": {
+        "cancel": "Cancel",
+        "ok": "OK",
+        "import": "Import",
+        "no": "No",
+        "yes": "Yes",
+        "error": "Error",
+        "withdraw": "Withdraw",
+        "buy": "Buy",
+        "sell": "Sell",
+        "success": "Success",
+        "confirm": "Confirm",
+        "units": "Units",
+        "price": "Price",
+        "total": "Total",
+        "last": "Last",
+        "bid": "Bid",
+        "ask": "Ask",
+        "settings": "Settings",
+        "market": "Market Pair",
+        "detach": "Detach Device",
+        "positive": "{{edit_field}} must be greater than zero!",
+        "fee": "Fee",
+        "amount": "Amount",
+        "subtotal": "Subtotal",
+        "loading": "Loading Market...",
+        "tryagain": "Try Again",
+        "connection_problem": "Unable to connect to Plutus API :(\nIf your internet connection is working the Plutus API may be down temporarily.",
+        "back": "Back",
+        "minutes": "minutes",
+        "for": "for"
+    },
+    "lock_screen": {
+        "pin_enter": "Enter PIN",
+        "pin_confirm": "Confirm PIN",
+        "pin_error": "PIN doesn't match, try again...",
+        "pwd_enter": "Enter Password",
+        "pwd_confirm": "Confirm Password",
+        "pwd_error": "Password doesn't match, try again...",
+        "biometric": "Verify ID"
+    },
+    "settings": {
+        "network": "Network",
+        "current_lang": "Language",
+        "support": "Support",
+        "net_prod": "Production (mainnet)",
+        "net_staging": "Staging (testnet)",
+        "lock_option": "Lock screen",
+        "lock_option_none": "None",
+        "lock_option_pin": "PIN",
+        "lock_option_password": "Password",
+        "lock_schedule": "Lock when",
+        "lock_sched_onstart": "App launches",
+        "lock_sched_onactivate": "App is activated",
+        "lock_sched_inactiveFor": "App is inactive"
+    },
+    "support": {
+        "username": "Username (account ID)...",
+        "username_copied": "Your generated username has been copied to the clipboard. Please paste this username into any support requests involving your account.",
+        "terms": "Terms and Conditions...",
+        "privacy": "Privacy Policy...",
+        "help": "More help...",
+        "discord": "Discord Community..."
+    },
+    "app": {
+        "create_account_alert": "Account Created!",
+        "create_account_message": "Your Wallet Key has been copied to the clipboard, please save it in a safe place so you can recover your account if needed.",
+        "import_pk_success": "Wallet Key imported successfully!\nWelcome to Plutus :)",
+        "detach_alert": "Detach Device?",
+        "detach_message": "This will remove your Wallet Key from your secure storage permanently. Your account will not be deleted. To use this account on another device you will need to import the Wallet Key on that device.",
+        "detach_confirm_have": "Yes, I have my Wallet Key saved already.",
+        "detach_confirm_copy": "Yes, but copy my Wallet Key to the clipboard so I can save it now.",
+        "detach_confirm_cancel": "No, I don't want to remove my Wallet Key.",
+        "delete_pk_success": "Wallet Key copied to clipboard:\n'{{key}}'"
+    },
+    "first_use": {
+        "welcome": "Welcome to the Plutus mobile app!",
+        "msg_create": "If this is your first time using this app, use the Create Account button below!",
+        "msg_import": "If you already have a Wallet Key for an account and you want to use it on this device, use the Import Wallet Key option!",
+        "btn_create": "Create Account",
+        "btn_import": "Import Wallet Key",
+        "pk_hint": "Paste Wallet Key here...",
+        "pk_clipboard": "Copy your wallet private key to the clipboard",
+        "pk_paste": "Tap paste button to enter and validate clipboard",
+        "pk_go": "Key looks valid, tap arrow button to open account",
+        "pk_err_empty": "Nothing found on clipboard",
+        "pk_err_length": "Length must be 64 characters!",
+        "pk_err_bad_key": "Invalid Private Key",
+        "pk_err_bad_chars": "Invalid characters in private key!"
+    },
+    "icos": {
+        "tab": "ICOs",
+        "intro_1": "Crypto Asset Platform",
+        "intro_2": "Create and trade crypto assets on a next generation DEX",
+        "soon": "Coming Soon!"
+    },
+    "market": {
+        "tab": "Market",
+        "trade_history": "Recent Trades",
+        "date": "Date",
+        "time": "Time",
+        "price": "Price",
+        "amount": "Amount",
+        "select": "Select Market"
+    },
+    "trade": {
+        "tab": "Trade",
+        "orderbook": {
+            "title": "Order Book",
+            "header": {
+                "total": "Total-",
+                "size": "Size-",
+                "bid": "Bid-",
+                "ask": "Ask-"
+            }
+        },
+        "myorders": {
+            "none": "No Open Orders",
+            "order_cancelled": "Order was cancelled",
+            "cancel_error": "Order was not cancelled-\n{{err}}",
+            "cancel_order": "Cancel your {{side}} for {{size}} {{tradecoin}} @{{price}} {{basecoin}}?",
+            "title": "Open Orders",
+            "cols": {
+                "date": "Date",
+                "side": "Bid/Ask",
+                "price": "Price",
+                "size": "Size"
+            }
+        },
+        "mytrades": {
+            "none": "No trades yet :(",
+            "title": "Order History",
+            "cols": {
+                "date": "Date",
+                "side": "Buy/Sell",
+                "price": "Price",
+                "size": "Size"
+            }
+        },
+        "buy": {
+            "confirm": "Buy {{units}} {{tradeCoin}} for {{total}} {{baseCoin}}?",
+            "empty_base": "You don't have any {{coin}} to buy with, deposit some so you can bid!",
+            "coin": "Buy {{coin}}",
+            "summary": "Buy {{units}} {{coin}}"
+        },
+        "sell": {
+            "confirm": "Sell {{units}} {{tradeCoin}} for {{total}} {{baseCoin}}?",
+            "empty_trade": "You don't have any {{coin}} to sell!",
+            "coin": "Sell {{coin}}",
+            "summary": "Sell {{units}} {{coin}}"
+        },
+        "order": {
+            "combo_invalid": "A valid combination of Price, Units, and/or Total must be provided",
+            "total_exceeds_balance": "Order total {{total}} is more than you have, {{available}}!",
+            "no_price": "Cannot calculate total, price not set!"
+        },
+        "success": "Your {{side}} order was created!"
+    },
+    "wallet" : {
+        "tab": "Wallet",
+        "export": "Export Wallet Key",
+        "exported": "Wallet Key copied to clipboard:\n'{{key}}'",
+        "token": {
+            "barcoderead_error": "Address appears to be a {{coin}} address, not a {{walletCoin}} address!",
+            "placeholder_withdraw_amount": "Amount to withdraw",
+            "placeholder_withdraw_address": "Enter {{coin}} Address",
+            "none_available": "You don't have any {{coin}} to withdraw :(",
+            "withdraw_confirm": "Withdraw {{amount} to {{address}}?",
+            "withdraw_success": "Withdraw transaction sent!",
+            "deposit_alert": "{{coin}} Deposit",
+            "deposit_address_not_ready": "The deposit address is not yet ready.\nIf this is your first deposit, try again in a few minutes, as it is still being generated.",
+            "deposit_clipboard": "Deposit address copied to clipboard.\n{{address}}"
+        }
+    }
+}

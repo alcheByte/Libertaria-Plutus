@@ -1,0 +1,120 @@
+﻿{
+    "common": {
+        "cancel": "Cancella",
+        "ok": "OK",
+        "import": "Importa",
+        "no": "No",
+        "yes": "Si",
+        "error": "Errore",
+        "withdraw": "Prelievo",
+        "buy": "Compra",
+        "sell": "Vendi",
+        "success": "Operazione Confermata",
+        "confirm": "Conferma",
+        "units": "Unità",
+        "price": "Prezzo",
+        "total": "Totale",
+        "last": "Ultimo Valore",
+        "bid": "Prezzo di Acquisto (Bid)",
+        "ask": "Prezzo di Vendita (Ask)",
+        "settings": "Impostazioni",
+        "market": "Mercato",
+        "detach": "Rimuovi Dispositivo"
+    },
+    "settings": {
+        "testnet": "Usa la rete di test",
+        "current_lang": "Lingua impostata"
+    },
+    "app": {
+        "create_account_alert": "Account Creato!",
+        "create_account_message": "La Chiave del tuo Wallet è stata copiata nella clipboard, per favore salvala in un posto sicuro in modo che tu possa recuperare il tuo account se necessario.",
+        "import_pk_alert": "Importa la Chiave del Wallet",
+        "import_pk_message": "Cerca e copia la tua Chiave del Wallet nella clipboard, torna indietro e seleziona Importa",
+        "import_pk_success": "Chiave del Wallet importata con successo:\n'{{key}}'",
+        "detach_alert": "Rimuovere Dispositivo?",
+        "detach_message": "Eseguendo il Logout la Chiave del Wallet verrà cancellata dalla memoria di archiviazione in uso in permanente. Il tuo account non verrà cancellato. Per utilizzare questo account su un altro device dovrai importare la Chiave del tuo Wallet dal nuovo dispositivo.",
+        "detach_confirm_have": "Si, ho la Chiave del mio Wallet, salvata e ben conservata.",
+        "detach_confirm_copy": "Si, ma copia la Chiave del mio Wallet nella clipboard per salvarla adesso.",
+        "detach_confirm_cancel": "No, non voglio rimuovere la Chiave del mio Wallet.",
+        "delete_pk_success": "Chiave del Wallet copiata nella clipboard:\n'{{key}}'"
+    },
+    "first_use": {
+        "welcome": "Benvenuto in Plutus!",
+        "msg_create": "Se è la prima volta che utilizza questa app, utilizza il tasto per Crea un nuovo Account qui di seguito!",
+        "msg_import": "Se hai già una Chiave del tuo Wallet per un account e vuoi utilizzarla su questo device, utilizza l'opzione Importa Chiave del Wallet!",
+        "btn_create": "Crea un nuovo Account",
+        "btn_import": "Importa Chiave Chiave del Wallet"
+    },
+    "icos": {
+        "tab": "ICO",
+        "intro_1": "Piattaforma Cripto-Asset",
+        "intro_2": "Creare e Scambiare crypto-asset su un Exchange Decentralizzato di nuova generazione",
+        "soon": "Coming Soon!"
+    },
+    "market": {
+        "tab": "Mercato",
+        "trade_history": "Cronologia transazioni",
+        "date": "Data",
+        "time": "Ora",
+        "price": "Prezzo",
+        "amount": "Quantità"
+    },
+    "trade": {
+        "tab": "Ordini",
+        "orderbook": {
+            "title": "Portafoglio Ordini",
+            "header": {
+                "total": "Totale-",
+                "size": "Quantità-",
+                "bid": "Prezzo di Acquisto-",
+                "ask": "Prezzo di Vendita-"
+            }
+        },
+        "myorders": {
+            "none": "Non ci sono ordini aperti",
+            "order_cancelled": "Ordine cancellato",
+            "cancel_error": "L'ordine non è stato cancellato-\n{{err}}",
+            "cancel_order": "Cancella la tua {{side}} per {{size}} {{tradecoin}} @{{price}} {{basecoin}}?",
+            "title": "Ordini Aperti",
+            "cols": {
+                "date": "Data",
+                "side": "Bid/Ask",
+                "price": "Prezzo",
+                "size": "Quantità"
+            }
+        },
+        "buy": {
+            "confirm": "Compra {{units}} {{tradeCoin}} per {{total}} {{baseCoin}}?",
+            "empty_base": "Non hai {{coin}} per effettuare l'acquisto, effettua prima un deposito.",
+            "coin": "Compra {{coin}}",
+            "summary": "Compra {{units}} {{coin}}"
+        },
+        "sell": {
+           "confirm": "Vendi {{units}} {{tradeCoin}} per {{total}} {{baseCoin}}?",
+            "empty_trade": "Non hai {{coin}} da vendere.",
+            "coin": "Vendi {{coin}}",
+            "summary": "Vendi {{units}} {{coin}}"
+        },
+        "order": {
+            "combo_invalid": "Deve essere fornita una combinazione valida di Prezzo, Unità e/o Totale.",
+            "total_exceeds_balance": "Il totale {{total}} è più di quanto hai a disposizione, {{available}}!",
+            "no_price": "Impossibile calcolare totale, prezzo non impostato."
+        }
+    },
+    "wallet" : {
+        "tab": "Wallet",
+        "export": "Esporta Chiave del Wallet",
+        "exported": "Chiave del Wallet copiata nella clipboard:\n'{{key}}'",
+        "token": {
+            "barcoderead_error": "L'indirizzo sembra essere {{coin}}, non un indirizzo {{walletCoin}}",
+            "placeholder_withdraw_amount": "Ammontare da prelevare",
+            "placeholder_withdraw_address": "Inserisci l'indirizzo {{coin}}",
+            "none_available": "Non hai {{coin}} da prelevare :(",
+            "withdraw_confirm": "Prelevare {{amount} su {{address}}?",
+            "withdraw_success": "Transazione di prelievo inviata!",
+            "deposit_alert": "Deposito {{coin}}",
+            "deposit_address_not_ready": "L'indirizzo di deposito non è ancora pronto.\nSe questo è il tuo primo deposito, ritenta tra pochi minuti, in quanto ancora in fase di generazione.",
+            "deposit_clipboard": "Indirizzo di deposito copiato nella clipboard.\n{{address}}"
+        }
+    }
+}

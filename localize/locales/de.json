@@ -1,0 +1,120 @@
+﻿{
+    "common": {
+        "cancel": "Abbrechen",
+        "ok": "OK",
+        "import": "Importieren",
+        "no": "Nein",
+        "yes": "Ja",
+        "error": "Fehler",
+        "withdraw": "Auszahlen",
+        "buy": "Kaufen",
+        "sell": "Verkaufen",
+        "success": "Erfolgreich",
+        "confirm": "Bestätigen",
+        "units": "Einheiten",
+        "price": "Preis",
+        "total": "Summe",
+        "last": "Zuletzt",
+        "bid": "Kaufen",
+        "ask": "Verkaufen",
+        "settings": "Einstellungen",
+        "market": "Handelsplatz",
+        "detach": "Gerät trennen"
+    },
+    "settings": {
+        "testnet": "Testnet nutzen",
+        "current_lang": "Gewählte Sprache"
+    },
+    "app": {
+        "create_account_alert": "Konto erstellt!",
+        "create_account_message": "Dein Geldbörsen-Schlüssel wurde in die Zwischenablage kopiert, bitte verwahre ihn an einem sicheren Ort, so dass Du im Ernstfall mit diesem dein Konto wiederherstellen kannst.",
+        "import_pk_alert": "Importiere Geldbörsen-Schlüssel",
+        "import_pk_message": "Kopiere Deinen Geldbörsen-Schlüssel in die Zwischenablage, komm zurück und klicke Importieren...",
+        "import_pk_success": "Geldbörsen-Schlüssel wurde erfolgreich importiert:\n'{{key}}'",
+        "detach_alert": "Gerät trennen?",
+        "detach_message": "Dieser Vorgang wird Deinen Geldbörsen-Schlüssel aus dem sicheren Speicher Deines Gerätes löschen. Dein Konto wird nicht gelöscht. Um dieses Konto auf einem anderen Gerät oder nach einer Neuinstallation auf diesem Gerät wieder nutzen zu können, importiere den Geldbörsen-Schlüssel in dieses Gerät.",
+        "detach_confirm_have": "Ja, ich habe meinen Geldbörsen-Schlüssel bereits gespeichert",
+        "detach_confirm_copy": "Ja, aber kopiere meinen Geldbörsen-Schlüssel in die Zwischenablage, so dass ich ihn anschließend (in einer anderen App) speichern kann",
+        "detach_confirm_cancel": "Nein, ich möchte meinen Geldbörsen-Schlüssel nicht löschen.",
+        "delete_pk_success": "Geldbörsen-Schlüssel wurde erfolgreich in die Zwischenablage kopiert:\n'{{key}}'"
+    },
+    "first_use": {
+        "welcome": "Willkommen in der Plutus App!",
+        "msg_create": "Wenn dies das erste Mal ist, dass Du diese App nutzt, klicke auf den nachfolgenden 'Erstelle ein Konto'-Button!",
+        "msg_import": "Wenn Du bereits einen Geldbörsen-Schlüssel für ein Konto besitzt und Du möchtest ihn für dieses Konto nutzen, wähle die 'Importiere Geldbörsen-Schlüssel' Option!",
+        "btn_create": "Erstelle ein Konto",
+        "btn_import": "Importiere Geldbörsen-Schlüssel"
+    },
+    "icos": {
+        "tab": "ICOs",
+        "intro_1": "Plattform für Krypto Vermögenswerte",
+        "intro_2": "Erstelle und handle Krypto-Vermögenswerte in der dezentralisierten Handelsplattform der Zukunft.",
+        "soon": "In naher Zunkuft! =)"
+    },
+    "market": {
+        "tab": "Markt",
+        "trade_history": "Handelsverlauf",
+        "date": "Datum",
+        "time": "Uhrzeit",
+        "price": "Preis",
+        "amount": "Betrag"
+    },
+    "trade": {
+        "tab": "Handeln",
+        "orderbook": {
+            "title": "Auftragsbuch",
+            "header": {
+                "total": "Gesamt-",
+                "size": "Volumen-",
+                "bid": "Kaufen-",
+                "ask": "Verkaufen-"
+            }
+        },
+        "myorders": {
+            "none": "Keine offenen Positionen",
+            "order_cancelled": "Auftrag wurde abgebrochen",
+            "cancel_error": "Auftrag wurde nicht abgebrochen-\n{{err}}",
+            "cancel_order": "Breche den Auftrag {{side}} für {{size}} {{tradecoin}} @{{price}} {{basecoin}} ab?",
+            "title": "Offene Aufträge",
+            "cols": {
+                "date": "Datum",
+                "side": "Kaufen/Verkaufen",
+                "price": "Preis",
+                "size": "Volumen"
+            }
+        },
+        "buy": {
+            "confirm": "Kaufe {{units}} {{tradeCoin}} für {{total}} {{baseCoin}}?",
+            "empty_base": "Du besitzt keine {{coin}} um damit zu kaufen. Zahle welche ein, um Kaufangebote zu platzieren.",
+            "coin": "Kaufe {{coin}}",
+            "summary": "Kaufe {{units}} {{coin}}"
+        },
+        "sell": {
+            "confirm": "Verkaufe {{units}} {{tradeCoin}} für {{total}} {{baseCoin}}?",
+            "empty_trade": "Du hast keine {{coin}} zum Verkaufen!",
+            "coin": "Verkaufe {{coin}}",
+            "summary": "Verkaufe {{units}} {{coin}}"
+        },
+        "order": {
+            "combo_invalid": "Du musst eine valide Kombination aus Preis, Anzahl und/oder Summe angeben",
+            "total_exceeds_balance": "Gesamtes Auftragsvolumen {{total}} ist mehr als Du besitzt, {{available}}!",
+            "no_price": "Kann die Summe nicht berechnen, es wurde kein Preis gesetzt!"
+        }
+    },
+    "wallet" : {
+        "tab": "Geldbörse",
+        "export": "Exportiere Geldbörsen-Schlüssel",
+        "exported": "Geldbörsen-Schlüssel wurde in die Zwischenablage kopiert:\n'{{key}}'",
+        "token": {
+            "barcoderead_error": "Die Adresse scheint eine {{coin}} Adresse zu sein, keine {{walletCoin}} Adresse!",
+            "placeholder_withdraw_amount": "Auszuzahlender Betrag",
+            "placeholder_withdraw_address": "Hier {{coin}} Adresse eintragen",
+            "none_available": "Sie haben keine {{coin}} zum Auszahlen :(",
+            "withdraw_confirm": "Auszahlung von {{amount} an {{address}}?",
+            "withdraw_success": "Auszahlung wurde gesendet!",
+            "deposit_alert": "{{coin}} Einzahlung",
+            "deposit_address_not_ready": "Die Einzahlungsadresse steht noch nicht bereit.\n Wenn dies Deine erste Einzahlung ist, warte einige Minuten. Deine Einzahlungsadresse wird erstellt.",
+            "deposit_clipboard": "Einzahlungsadresse wurde in die Zwischenablage kopiert.\n{{address}}"
+        }
+    }
+}

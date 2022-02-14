@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "Plutus",
+    "description": "Plutus is an ICO platform and crypto exchange",
+    "slug": "plutus",
+    "privacy": "unlisted",
+    "sdkVersion": "29.0.0",
+    "version": "0.9.1",
+    "orientation": "portrait",
+    "primaryColor": "#cccccc",
+    "icon": "./assets/plutus.png",
+    "splash": {
+      "image": "./assets/Libertaria-presents.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#101010"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "buildNumber": "5",
+      "bundleIdentifier": "world.libertaria.plutus.mobile",
+      "infoPlist": {
+        "NSFaceIDUsageDescription": "Face ID is optionally used for lock screen."
+      }
+    },
+    "android": {
+      "package": "world.libertaria.plutus.mobile"
+    },
+    "isDetached": false
+  }
+}
